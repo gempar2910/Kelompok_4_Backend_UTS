@@ -1,0 +1,23 @@
+{
+  "name": "kelompok_4_backend_uts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gempar2910/Kelompok_4_Backend_UTS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gempar2910/Kelompok_4_Backend_UTS/issues"
+  },
+  "homepage": "https://github.com/gempar2910/Kelompok_4_Backend_UTS#readme",
+  "dependencies": {
+    "xendit-node": "^6.3.0"
+  }
+}
