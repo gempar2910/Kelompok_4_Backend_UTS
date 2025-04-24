@@ -13,8 +13,13 @@ app.get('/', (req, res) => {
 
 // Di src/app.js (setelah middleware)
 const invoiceRoutes = require('./routes/invoiceRoutes');
+const virtualaccountRoutes = require('./routes/virtualaccountRoutes');
+
 // ... (route lainnya jika ada)
 
-app.use('/v2/invoices', invoiceRoutes); // Prefix sesuai API Xendit
+app.use('/v2/invoices', invoiceRoutes); 
+app.use('/callback_virtual_accounts', virtualaccountRoutes); 
+// Prefix sesuai API Xendit
 // app.use('/disbursements', disbursementRoutes); // Contoh
 module.exports = app;
+
